@@ -200,3 +200,42 @@ li > a{
 }
 
 /* Some Facts container styles  */
+
+.facts-container{
+    margin: 3rem 0rem;
+}
+
+.facts-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.fact{
+    border: 1px solid var(--button-color);
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.facts-title{
+    color: var(--title-color);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.facts-desc{
+    color: var(--description-color);
+    width: 70%;
+}
+
+.fact:hover{
+    box-shadow: 0px 0px 10px 2px var(--description-color);
+}
+
+/* Our Sponsors container styles  */
