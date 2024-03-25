@@ -7,5 +7,196 @@
     font-family: "Work Sans", sans-serif;
 }
 
+:root{
+    --description-color: #727272;
+    --tab-color: #424242;
+    --title-color: #131313;
+    --button-color: #FF900E;
+}
 
+.space{
+    margin-left: 8%;
+    margin-right: 8%;
+}
 
+header{
+    background-color: #FF900E1A;
+    margin-bottom: 3rem;
+}
+
+/* nav container styles  */
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem 0rem;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.6rem;
+}
+
+ul > li{
+    list-style-type: none;
+}
+
+li > a{
+    text-decoration: none;
+    color: var(--tab-color);
+}
+
+/* banner container styles  */
+
+.banner-content{
+    text-align: center;
+    margin: 3rem 0rem 0rem;
+
+}
+
+.banner-title{
+    color: var(--title-color);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.banner-desc{
+    color: var(--description-color);
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.banner-btn{
+    border: none;
+    border-radius: 5px;
+    background-color: var(--button-color);
+    padding: 1rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.banner-image img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+/* Our Features container styles  */
+
+.features-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.our-features-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.our-features-images img{
+    width: 200px;
+}
+
+.features-text{
+    color: var(--button-color);
+}
+
+.list-text{
+    color: var(--description-color);
+}
+
+.our-features-desc{
+    color: var(--description-color);
+    margin: 1rem 0rem;
+}
+
+.our-features-title{
+    color: var(--title-color);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+/* our goals container styles  */
+
+.our-goals-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    position: relative;
+}
+
+.our-goals-title{
+    color: var(--title-color);
+    font-size: 2rem;
+    font-weight: 700;
+    border-left: 5px solid var(--button-color);
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.our-goal-desc{
+    color: var(--description-color);
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.our-goals-content{
+    width: 60%;
+}
+
+.our-goal{
+    padding: 1rem;
+    box-shadow: 0px 0px 10px 1px #5858581a;
+    margin: 1rem 0rem;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.goal-title{
+    color: var(--title-color);
+    margin-bottom: 0.5rem;
+}
+
+.goal-desc{
+    color: var(--description-color);
+}
+
+.experience-logo{
+    background-color: var(--button-color);
+    padding: 1rem;
+    max-width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+.experience-title{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.our-goals-image img{
+    width: 100%;
+    min-height: 100vh;
+    margin-left: 20px;
+}
+
+.experience-logo{
+    position: absolute;
+    bottom: 8%;
+    right: 40%;
+}
+
+/* Some Facts container styles  */
