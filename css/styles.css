@@ -7,6 +7,10 @@
     font-family: "Work Sans", sans-serif;
 }
 
+.hidden{
+    display: none;
+}
+
 :root{
     --description-color: #727272;
     --tab-color: #424242;
@@ -271,7 +275,7 @@ li > a{
 }
 
 /* footer container styles  */
-footer{
+.footer-container{
     text-align: center;
     background-color: #FFF4E7;
     padding: 2rem;
